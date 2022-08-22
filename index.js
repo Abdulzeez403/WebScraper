@@ -20,9 +20,9 @@ axios(url)
   })
   })
   console.log(articles);
-}).catch((err=>{
+}).catch((err)=>{
   console.log('There is an issue with this scraper');
-}))
+})
 
 app.listen(3000, ()=>{
  console.log("The Server is running on Port 3000")
